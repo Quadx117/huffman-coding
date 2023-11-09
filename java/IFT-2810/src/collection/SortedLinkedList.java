@@ -12,7 +12,7 @@ package question2.collection;
 
 /*
  * Classe implémentant une liste doublement chaînée trié en tout temps à partir de la classe
- * LinkedList.  Cette liste ne permet pas l'ajout de doubons.  L'objet à ajouter dans la liste
+ * LinkedList.  Cette liste ne permet pas l'ajout de doublons.  L'objet à ajouter dans la liste
  * doit implémenter l'interface Comparable.  La liste est trié de façon décroissante.
  */
 public class SortedLinkedList<E extends Comparable<E>> extends LinkedList<E> {
